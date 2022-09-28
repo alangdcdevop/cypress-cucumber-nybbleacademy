@@ -19,7 +19,7 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: "cypress/e2e/features/*.feature",
-    baseUrl: "https://juiceshop-nybbleacm-service-alangdcdevop.cloud.okteto.net/",
+    baseUrl: "http://todo.ly/",
     chromeWebSecurity: false,
   },
 });
