@@ -14,9 +14,11 @@ When("user click on button", function () {
 
 When("user complete field with blabla", function () {
   homePage.userCompletesFieldWithBlabla();
+
+  homePage.userClickOnLoginMenu();
 });
 
 
 Then("system shows blabla", function () {
-  return true;
+  homePage.elementShuldHaveText();
 });
