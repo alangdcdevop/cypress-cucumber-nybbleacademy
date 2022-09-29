@@ -40,4 +40,4 @@ Feature: Story NAQA-269 Settings
     So that i can see my data updated 
 
     Background:
-        Given 
+        Given A user enters todo.ly web page.
