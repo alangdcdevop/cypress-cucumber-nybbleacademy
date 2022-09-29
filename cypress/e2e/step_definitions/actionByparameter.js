@@ -3,7 +3,7 @@ import {
   When,
   Then,
 } from "@badeball/cypress-cucumber-preprocessor";
-const welcomePage = require("../../pages/WelcomePage");
+const welcomePage = require("../../pages/LoginPage");
 
 
 
